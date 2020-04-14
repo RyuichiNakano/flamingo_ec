@@ -1,3 +1,128 @@
+html {
+  font-size: 62.5%; }
 
+body {
+  margin: 0; }
+
+header .header_style {
+  display: flex;
+  width: 100%; }
+header .header_left {
+  margin-right: auto; }
+  header .header_left h2 {
+    color: #ffaece;
+    margin: 16px 0 0 36px; }
+  header .header_left a {
+    margin: 0px 0 0 26px;
+    width: 100%; }
+header .header_right {
+  margin-left: auto;
+  font-size: 14px; }
+  header .header_right ul {
+    display: flex;
+    list-style: none;
+    margin: 30px 5px 0 0; }
+  header .header_right li a {
+    text-decoration: none;
+    color: black; }
+header .right_image {
+  margin: 14px 10px 0; }
+header .header_service {
+  position: relative;
+  margin-bottom: 55px; }
+  header .header_service img {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    top: -10px;
+    left: 0;
+    object-fit: cover; }
+
+main .main_picture {
+  position: relative; }
+  main .main_picture img {
+    width: 100%;
+    object-fit: cover; }
+  main .main_picture h2 {
+    position: absolute;
+    top: 11%;
+    left: 28.5%;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 13.5px;
+    text-shadow: 1px 1px 1px gray; }
+  main .main_picture p {
+    position: absolute;
+    top: 18%;
+    left: 28.5%;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 9.5px;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px gray; }
+  main .main_picture .child1 {
+    position: absolute;
+    top: 36%;
+    left: 26.5%; }
+  main .main_picture ul {
+    display: flex;
+    padding: 0; }
+  main .main_picture li {
+    list-style: none;
+    background-color: #e685b1;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    margin: 10px;
+    padding: 5px 20px;
+    border-radius: 50px; }
+  main .main_picture li:nth-child(3) {
+    padding: 5px 45px; }
+  main .main_picture .child2 h2 {
+    position: absolute;
+    top: 45%;
+    left: 28.5%;
+    color: white;
+    font-size: 40px;
+    letter-spacing: -2px;
+    text-shadow: 1px 1px 1px gray; }
+  main .main_picture .child2 p {
+    position: absolute;
+    top: 55%;
+    left: 28.5%;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px gray; }
+main .shop_info img {
+  width: 100%; }
+main .shop_info h3 {
+  text-align: center;
+  color: #e685b1;
+  font-size: 27px;
+  margin-top: 60px; }
+  main .shop_info h3 img {
+    height: 100%;
+    width: 40px; }
+main .shop_info p {
+  text-align: center;
+  color: gray;
+  font-size: 14px; }
+main .shop_info ul li img {
+  width: 260px;
+  height: 150px; }
+main .shop_container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; }
+main .shop_box {
+  width: 20%;
+  cursor: pointer; }
+  main .shop_box img {
+    width: 100%; }
+  main .shop_box a:hover {
+    opacity: 0.7; }
 
 /*# sourceMappingURL=style.css.map */
